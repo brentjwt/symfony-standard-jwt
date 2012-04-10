@@ -61,3 +61,8 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+    
+# End of standard deps. Extra deps below
+[JWTSymfonyExtraBundle]
+    git=git://github.com/JWT-OSS/JWTSymfonyExtraBundle.git
+    target=/bundles/JWT/SymfonyExtraBundle
