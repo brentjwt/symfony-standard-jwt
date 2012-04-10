@@ -1,7 +1,7 @@
-Symfony Standard Edition
-========================
+Symfony Standard "JWT" Edition
+==============================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony2
+Welcome to the Symfony Standard JWT Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new app. If you want
 to learn more about the features included, see the "What's Inside?" section.
 
@@ -32,8 +32,8 @@ But if you still want to use Git, you are on your own.
 
 Run the following commands:
 
-    git clone http://github.com/symfony/symfony-standard.git
-    cd symfony-standard
+    git clone https://baileyp@github.com/JWT-OSS/symfony-standard-jwt.git project-name
+    cd project-name
     rm -rf .git
 
 2) Installation
@@ -108,13 +108,6 @@ The distribution is configured with the following defaults:
 * Swiftmailer is configured;
 * Annotations for everything are enabled.
 
-A default bundle, ``AcmeDemoBundle``, shows you Symfony2 in action. After
-playing with it, you can remove it by following these steps:
-
-* delete the ``src/Acme`` directory;
-* remove the routing entries referencing AcmeBundle in ``app/config/routing_dev.yml``;
-* remove the AcmeBundle from the registered bundles in ``app/AppKernel.php``;
-
 What's inside?
 ---------------
 The Symfony Standard Edition comes pre-configured with the following bundles:
@@ -142,6 +135,6 @@ The Symfony Standard Edition comes pre-configured with the following bundles:
   and working with Symfony distributions
 * **SensioGeneratorBundle** (in dev/test env) - Adds code generation capabilities
   ([documentation](http://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html))
-* **AcmeDemoBundle** (in dev/test env) - A demo bundle with some example code
+* **JWTSymfonyExtraBundle** - Addes JWT-specific functionality
 
 Enjoy!
