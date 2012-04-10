@@ -32,7 +32,7 @@ But if you still want to use Git, you are on your own.
 
 Run the following commands:
 
-    git clone JWT-OSS/symfony-standard-jwt project-name
+    git clone http://github.com/JWT-OSS/symfony-standard-jwt project-name
     cd project-name
     rm -rf .git
 
