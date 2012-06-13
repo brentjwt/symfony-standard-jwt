@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new JWT\SymfonyExtraBundle\JWTSymfonyExtraBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
